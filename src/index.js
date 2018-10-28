@@ -1,3 +1,4 @@
+// Components
 import Role from './Role'
 
 export function install(Vue) {
@@ -5,8 +6,6 @@ export function install(Vue) {
     
     install.installed = true;
     
-    // console.log(Vue);
-
 	Vue.component('role', Role);
 }
 
@@ -24,5 +23,5 @@ if (GlobalVue) {
 }
 
 export {
-    Role
+	Role
 }

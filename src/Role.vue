@@ -12,7 +12,7 @@ export default {
     props: {
         name: {
             type: String,
-            default: ''
+            required: true
         },
 
         strict: {
@@ -41,7 +41,7 @@ export default {
             }
 
             let names = this.name.split('|');
-
+            
             //
             // Requer todos os papéis
             //

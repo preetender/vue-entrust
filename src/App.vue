@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="app">
 
         <h1>Qualquer coisa!</h1>
 
@@ -29,14 +29,13 @@
 </template>
 
 <script>
+    import {Role} from './index'
 
-import {Role} from './index'
+    export default {
+        name: 'App',
 
-export default {
-    
-    components: {
-        Role
+        components: {
+            Role
+        }
     }
-
-}
 </script>
